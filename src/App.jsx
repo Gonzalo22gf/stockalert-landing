@@ -3,7 +3,10 @@ import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Problem from './components/Problem'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
+import ForWho from './components/ForWho'
 import Showcase from './components/Showcase'
+import AppBanner from './components/AppBanner'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import FinalCTA from './components/FinalCTA'
@@ -19,7 +22,10 @@ function App() {
         <Stats />
         <Problem />
         <Features />
+        <HowItWorks />
+        <ForWho />
         <Showcase />
+        <AppBanner />
         <Pricing />
         <FAQ />
         <FinalCTA />
