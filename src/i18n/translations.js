@@ -95,7 +95,7 @@ export const translations = {
           desc: 'Para probar StockAlert sin compromiso.',
           features: [
             '1 sucursal',
-            'Hasta 50 productos',
+            'Hasta 30 productos',
             'Alertas de vencimiento',
             'Soporte por email',
           ],
@@ -289,7 +289,7 @@ export const translations = {
           desc: 'Try StockAlert with no commitment.',
           features: [
             '1 branch',
-            'Up to 50 products',
+            'Up to 30 products',
             'Expiration alerts',
             'Email support',
           ],
@@ -300,7 +300,7 @@ export const translations = {
           desc: 'For a single store just getting its stock in order.',
           features: [
             '1 branch',
-            'Unlimited products',
+            'Up to 50 products',
             'Expiration and low-stock alerts',
             'Excel reports',
             'Email support',
