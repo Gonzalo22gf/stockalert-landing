@@ -1,5 +1,5 @@
 import { useLanguage } from '../i18n/useLanguage'
-import { buildWhatsAppLink } from '../config'
+import { buildWhatsAppLink, APP_URL } from '../config'
 import { IconWhatsApp, IconBell, IconStore, IconChart } from './icons'
 
 
@@ -28,7 +28,7 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="#precios"
+              href={APP_URL} target="_blank" rel="noopener noreferrer"
               className="w-full rounded-full bg-indigo-500 px-7 py-3.5 text-center text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:bg-indigo-400 sm:w-auto"
             >
               {t.hero.ctaPrimary}
